@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindy travel | Raffle</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/assets/imagenes/icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/assets/estilo/style.css">
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <a href="/index.html" class="logo">
+              <img class="img-logo" src="/assets/imagenes/plane-header.png" alt="Plane-logo">
+            </a>
+            <nav class="nav">
+              <a class="button" href="/index.html">Home</a>
+              <a class="button" href="/assets/paginas/contact.html">Contact</a>
+              <a class="button" href="/assets/paginas/about.html">About us</a>
+              <a class="button" href="/assets/paginas/information.html">More Information</a>
+              <a class="button" href="/assets/paginas/benifits.html">Benefits</a>
+              <a class="button" href="#">Raffle</a>
+            </nav>
+            <div class="logo2">
+              <img class="img-logo" src="/assets/imagenes/logo.png" alt="Logo">
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+                <h1>Raffle</h1>
+                <h2>You can collaborate and participate in a raffle for a 1-week trip</h2>
+            <div class="box-raffle">   
+                <div class="mapa">
+                    <h4>Map</h4>  
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15125.020523640376!2d-68.34423461884467!3d18.607590946427848!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ea891645dcbfe77%3A0x61881cfaed12f6f3!2sPunta%20Cana%2C%20Rep%C3%BAblica%20Dominicana!5e0!3m2!1ses!2scl!4v1687370834617!5m2!1ses!2scl" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="Box-Information">
+                    <form action="/assets/paginas/show_data.html" method="get">
+                            <label for="Name">Name</label>
+                            <input type="text" id="Name" name="Name" placeholder="Name"><br>
+                            <label for="Lastname">Last Name</label>
+                            <input type="text" id="Lastname" name="Lastname" placeholder="Last Name"><br>
+                            <label for="email">Email</label>
+                            <input type="text" id="email" name="email" placeholder="Email"><br>
+                            <label for="chosen-country">Choose Country</label>
+                            <select name="Country" id="chosen-country">
+                                    <option value="AF">Afganistán</option>
+                                    <option value="AL">Albania</option>
+                                    <option value="DE">Alemania</option>
+                                    <option value="AD">Andorra</option>
+                                    <option value="AO">Angola</option>
+                            </select>
+                            <p>Payment Options</p>
+                            <label for="Cash">Cash</label>
+                            <input type="radio" id="Cash" name="Cash" value="Cash">
+                            <label for="Credit_Card">Credit Card</label>
+                            <input type="radio" id="Credit_Card" name="Credit_Card" value="Credit_Card">
+                            <label for="Debit_Card">Debit Card</label>
+                            <input type="Radio" name="Debit_Card" id="Debit_Card" value="Debit_Card">
+                            <label for="message">Optional Message</label>
+                            <input type="text" name="Message" id="message">
+                            <label for="agree">I agree</label>
+                            <input type="radio" id="agree" name="agree" value="agree">
+                            <input type="submit" value="Send">
+                    </form>
+                </div>
+            </div> 
+    </section>
+    </main>
+    <footer class="footer">
+        <address class="contact-info">
+            <a href="mailto:mindytravel@mh.com">E-Mail: mindytravel@mh.com</a>
+        </address>
+        <nav class="pie">Creaty by: Ivan Castillo</nav>
+        <address class="contact-info">
+            <a href="tel:00231112">Phone: 00231112</a>
+        </address>
+    </footer>
+</body>
+</html>
